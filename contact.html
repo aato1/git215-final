@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Global Getaways | Contact</title>
+        <meta name="author" content="Adam To">
+        <meta name="description" content="Contact our team at Global Getaways in order to check prices, availability, and any other questions you might have!">
+
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <link rel="stylesheet" href="https://use.typekit.net/zkq6pfs.css">
+    
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1><a href = "index.html" aria-label = "Home page">Global Getaways</a></h1>
+            <nav>
+                <ul>
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "#">Accommodations</a></li>
+                    <li><a href = "contact.html" class = "active">Contact</a></li>
+                </ul>
+            </nav>
+            <img src = "images/swiss-valley.jpg" alt = "A forest clearing with a river cutting through trees and mountains in the Swiss Valley" height = "560" width = "1440">
+        </header>
+        <main id = "contact">
+            <section id = "gridholder">
+                <h2>Contact Us</h2>
+                <div id = "banner">
+                    <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! Required fields marked with a <span class="required">*</span></p>
+                    <img src = "images/swiss-peak.jpg" alt = " A Swiss mountain peak towering above a rives and trees" height = "455" width = "350">
+                </div>
+                <div id = "survey">
+                    <form action = "https://wp.zybooks.com/form-viewer.php" method = "POST" target = "_blank">
+                        <label for = "my-name">Full Name*</label>
+                        <input type = "text" name = "my-name" id = "my-name" required>
+                        <label for = "my-email">Email Address*</label>
+                        <input type = "text" name = "my-email" id = "my-email" required>
+                        <label for = "my-name">Phone Number*</label>
+                        <input type = "text" name = "my-name" id = "my-phone" required>
+                        <fieldset>
+                            <legend>Preferred Contact Method*</legend>
+                            <input type = "radio" name = "contact-pref" id = "pref-email" checked required>
+                            <label for = "pref-email">Email</label>
+                            <input type = "radio" name = "contact-pref" id = "pref-phone" required>
+                            <label for = "pref-phone">Phone</label>
+                        </fieldset>
+                        <label for = "my-comments">Comments*</label>
+                        <textarea name = "my-comments" id = "my-comments" required></textarea>
+                        <input type = "submit" name = "my-submit" id = "my-submit" value = "Submit">
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright &copy;2023 - Global Getaways</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
+</html>
